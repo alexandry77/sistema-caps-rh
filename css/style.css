@@ -1,0 +1,52 @@
+body {
+    scroll-behavior: smooth;
+}
+
+/* CORES */
+.bg-verde {
+    background-color: #198754 !important;
+}
+
+.bg-laranja {
+    background-color: #fd7e14 !important;
+}
+
+/* HERO */
+.hero {
+    margin-top: 60px;
+    padding: 100px 20px;
+    text-align: center;
+    color: white;
+}
+
+/* SEÇÕES */
+section {
+    padding: 60px 20px;
+}
+
+/* CEO */
+#ceo img {
+    border-radius: 50%;
+    box-shadow: 0px 4px 10px rgba(0,0,0,0.3);
+}
+
+/* CARDS */
+.card {
+    transition: 0.3s;
+}
+
+.card:hover {
+    transform: scale(1.05);
+}
+
+/* NAVBAR */
+.navbar .nav-link {
+    margin-left: 15px;
+    font-weight: bold;
+}
+
+/* CONTATO */
+#contato i {
+    margin-right: 8px;
+    color: #fd7e14;
+}
